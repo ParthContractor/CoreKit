@@ -1,2 +1,2 @@
 # CoreKit
-odular Swift Package with Logger, DateUtils, Analytics
+Modular Swift Package with Logger, DateUtils, Analytics
