@@ -14,8 +14,13 @@ Modular Swift Package with Logger, DateUtils, Analytics
 6. Import and use in your code:
 
 **Example**
+
 import CoreLogger
 import CoreDateUtils
 
 Logger.log("App started")
 let dateStr = DateFormatterHelper.formattedDate(from: Date())
+
+**Note**
+-Ensure they are linked to your app target (CoreKitDemo) under “Add to Target” column
+-This is critical — skipping this will cause “No such module” errors.
