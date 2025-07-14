@@ -13,7 +13,7 @@ Modular Swift Package with Logger, DateUtils, Analytics
 5. Make sure your app target is checked under **“Add to Target”**
 6. Import and use in your code:
 
-**Example**
+## 📦 Package Integration Example
 
 import CoreLogger<br>
 import CoreDateUtils
@@ -21,6 +21,12 @@ import CoreDateUtils
 Logger.log("App started")<br>
 let dateStr = DateFormatterHelper.formattedDate(from: Date())
 
-**Note**<br>
+## 📦 Package Integration Notes
 -Ensure they are linked to your app target (CoreKitDemo) under “Add to Target” column<br>
 -This is critical — skipping this will cause “No such module” errors.
+
+## 📦 Package Distribution
+
+This Swift package is currently distributed via Git and version tags using the standard Swift Package Manager (SPM) workflow.
+
+**No GitHub Packages have been published yet.**  
